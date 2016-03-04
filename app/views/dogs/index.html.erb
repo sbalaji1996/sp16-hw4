@@ -1,0 +1,6 @@
+<h1> Dogs in the database! </h1>
+<img src="https://i.imgur.com/g4NV0sj.jpg" style="width:232px;height:309;">
+  <% @dogs.each do |d| %>
+    Name: <%= d.name %>
+    Age : <%= d.age %>
+  <% end %>
